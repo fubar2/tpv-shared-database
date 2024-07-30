@@ -1412,6 +1412,8 @@ tools:
     mem: 16
     env:
       _JAVA_OPTIONS: -Xmx{int(mem)}G -Xms1G
+  toolshed.g2.bx.psu.edu/repos/iuc/microsatbed/microsatbed/.*:
+    mem: 8
   toolshed.g2.bx.psu.edu/repos/iuc/minia/minia/.*:
     cores: 2
     mem: 8
